@@ -1,45 +1,41 @@
 
   body{
     background-color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.3em;
   }
    
   /* Header/Logo Title */
-.header {
-  font-family: 'Courier New', Courier, monospace;
-  margin: 0;
-  padding: 5px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-  font-size: 30px;
-}
+  .header { 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background: #37d6b6;
+    color: white;
+    font-size: 30px;
+  }
   
  
 .description {
-  
-  padding-top: 20px;
-  
-  font-family: 'Courier New', Courier, monospace;
+  padding-top: 10px;
   text-align: left;
   background: #ffffff;
   color: rgb(0, 0, 0);
   font-size: 15px;    
-
-  width: 50%;
+  width: 33%;
+  margin-left: 20;
   position: fixed;
   overflow-x: hidden;
- 
+
 }
 
 .left {
-  left: 0;
-  background-color: rgb(255, 255, 255);
+  left: 4;
 }
 
 .right {
-  right: 0;
-  background-color: rgb(255, 255, 255);
- 
+  left: 40%;
+  
 }
 
   /* Page Content */
@@ -49,7 +45,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(53, 53, 53);
 }
 
 li {
