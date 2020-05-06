@@ -70,5 +70,10 @@ li a:hover:not(.active) {
   background-color: #4CAF50;
 }
 
+.responsive {
+  width: 40%;
+  right: 0;
+  height: auto;
+}
 
 
