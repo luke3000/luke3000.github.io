@@ -42,6 +42,14 @@
   
 }
 
+
+.footer {
+  display: block;
+  bottom: 0;
+  left: 0;
+}
+
+
   /* Page Content */
   
 ul {
@@ -79,5 +87,3 @@ li a:hover:not(.active) {
   max-height: 750px;
   max-width: 630px;
 }
-
-
