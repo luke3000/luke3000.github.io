@@ -73,9 +73,11 @@ li a:hover:not(.active) {
 }
 
 .responsive {
-  width: 40%;
+  width: 60%;
   right: 0;
   height: auto;
+  max-height: 750px;
+  max-width: 630px;
 }
 
 
