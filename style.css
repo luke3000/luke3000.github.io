@@ -18,7 +18,7 @@
  
 .description {
   padding-top: 10px;
-  text-align: left;
+ 
   background: #ffffff;
   color: rgb(0, 0, 0);
   font-size: 15px;    
@@ -29,11 +29,13 @@
 }
 
 .left {
+  text-align: left;
   width: 33%;
   left: 4;
 }
 
 .right {
+  text-align: center;
   width: 60%;
   left: 40%;
   right: 0;
