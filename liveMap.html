@@ -30,7 +30,7 @@
         var tiles = L.tileLayer(tileUrl, { attribution });
         tiles.addTo(map);
 
-        var gpx_file = ' _SJS_ride_1.gpx';
+        var gpx_file = 'SJS_ride_1.gpx';
         new L.GPX(gpx_file, {async: true}).on('loaded', function(e) {
         map.fitBounds(e.target.getBounds());
         }).addTo(map);
